@@ -1,0 +1,82 @@
+body{
+    
+background-image: url(./images/bg-pattern-bottom-desktop.svg);
+margin: 70px;
+padding: 12px;
+max-width: 1000px;
+display: flex;
+flex-direction: column;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.fleconta{
+    position: relative;
+     left: 60px;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    align-items: flex-start;
+    padding-left: 8px;
+    height: 120px;
+    width: 400px;
+}
+.fleconta > div{
+    background-color:hsl(300, 24%, 96%);
+    margin: 1px;
+    padding: 2px;
+}
+
+.rating{
+    display: block;
+    background-color: rgb(112, 120, 124);
+    float: right;
+    padding: 6px;
+    text-align: center;
+
+}
+.we{
+    color: rgb(152, 108, 194);
+    font-weight: 900;
+}
+
+.brat{
+    float: right;
+    color: #000;
+    background-color: rgb(73, 141, 41);
+    text-align: center;
+    padding: 14px 16px;
+    margin: 16px; 
+    border: 10px;
+}
+.colton{
+    background-color: hsl(302, 24%, 47%);
+    padding: 12px;
+    border: 8px;
+    margin: 10px;
+    border-radius: 17px;
+    font-size: small;
+}
+.wallace{
+    background-color: hsl(303, 29%, 33%);
+    padding: 12px;
+    border: 8px;
+    border-radius: 20px;
+    margin: 10px;
+    font-size: small;
+}
+.rene{
+    background-color: hsl(302, 29%, 36%);
+    padding: 12px;
+    border: 8px;
+    margin: 10px;
+    border-radius: 17px;
+    font-size: small;
+}
+.ghconta{
+    display: flex;
+    flex-direction: row;
+    padding: 7px;
+    align-content: space-between;
+    flex-wrap: nowrap;
+    margin: 6px;
+    color: white;
+}
